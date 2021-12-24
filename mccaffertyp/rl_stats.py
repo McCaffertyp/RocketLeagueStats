@@ -4,6 +4,7 @@ import platform
 from mccaffertyp.players.player import Player
 from mccaffertyp.players.players_handler import PlayersHandler
 from mccaffertyp.teams.teams_handler import TeamsHandler
+from mccaffertyp.statistics import stat_analysis
 
 # 05-07-2021 5:00:00 PM = 1620432000 seconds
 benchmark_time = 1620432000
@@ -22,6 +23,11 @@ class RLStats:
         self.teams_handler.create_teams()
         self.teams_handler.generate_teams_stats()
         self.teams_handler.display_teams()
+        print()
+        stat_analysis.compare_two_teams(
+            self.teams_handler.teams_list["Natus Vincere"],
+            self.teams_handler.teams_list["Nefarious"]
+        )
 
 def write_player_list_to_csv_file(player_list: dict):
     csv_columns = ['name', 'games', 'win_percent', 'score_avg', 'goal_avg', 'assist_avg',
