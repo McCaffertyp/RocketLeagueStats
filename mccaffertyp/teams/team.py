@@ -54,12 +54,24 @@ class Team:
         self.shot_percent_avg = (self.shot_percent_avg / player_avg_divisor) / 100.0
         self.overall_rating_avg /= player_avg_divisor
 
+    def players_to_list(self):
+        player_list = [self.players[player_tag].to_string() for player_tag in self.players]
+        return player_list
+
+    def stats_to_list(self):
+        return [self.games_avg, self.win_percent_avg, self.score_avg, self.goal_avg, self.assist_avg,
+                      self.save_avg, self.shot_avg, self.shot_percent_avg, self.overall_rating_avg]
+
     def stats_to_string(self):
         return('"stats": ["games avg": {:.2f}, "win % avg": {:.2f}, "score avg": {:.2f}, "goal avg": {:.2f}, "assist avg": {:.2f}, '
                   '"save avg": {:.2f}, "shot avg": {:.2f}, "shot % avg": {:.2f}, "rating avg": {:.2f}]'
-                  .format(self.games_avg, self.win_percent_avg, self.score_avg, self.goal_avg,
-                          self.assist_avg, self.save_avg, self.shot_avg, self.shot_percent_avg, self.overall_rating_avg)
+                  .format(self.games_avg, self.win_percent_avg, self.score_avg, self.goal_avg, self.assist_avg,
+                          self.save_avg, self.shot_avg, self.shot_percent_avg, self.overall_rating_avg)
                   )
+
+    def as_dict(self) -> dict:
+        return {"name": self.name, "region": self.region,
+                "Players": self.players_to_list(), "stats": self.stats_to_list() }
 
     def display(self):
         print()

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rocket League Stats Predictor</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='rl_statistics.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $('#rl_stats_table').load("team_stats_table.html")
+
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Rocket League Statistics</h1>
+        <p>Statistics</p>
+        <div id="rl_stats_table"></div>
+    </body>
+</html>
