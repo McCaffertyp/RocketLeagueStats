@@ -5,6 +5,8 @@ def compare_two_teams(home_team: Team, away_team: Team):
         print("Unable to accurately compare two teams that do not have full rosters (determined by 3+ players)")
     else:
         print("Comparing team {} and {}".format(home_team.name, away_team.name))
+        print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
+        print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
         # Until stats are analyzed, each team has the same chance of winning.
         home_team_win_chance = 0.0
         away_team_win_chance = 0.0
@@ -71,7 +73,7 @@ def get_experience_modifier(home_team: Team, htm: float, away_team: Team, atm: f
     away_team_game_avg = away_team.games_avg * atm
     game_avg_total = away_team_game_avg + home_team_game_avg
 
-    if home_team_game_avg > away_team_game_avg:
+    if home_team_game_avg >= away_team_game_avg:
         game_avg_percent = home_team_game_avg / game_avg_total
         return "home", game_avg_percent
     else:
@@ -84,7 +86,7 @@ def get_win_percent_modifier(home_team: Team, htm: float, away_team: Team, atm: 
     away_team_win_percent_avg = away_team.win_percent_avg * atm
     game_avg_total = away_team_win_percent_avg + home_team_win_percent_avg
 
-    if home_team_win_percent_avg > away_team_win_percent_avg:
+    if home_team_win_percent_avg >= away_team_win_percent_avg:
         game_avg_percent = home_team_win_percent_avg / game_avg_total
         return "home", game_avg_percent
     else:
@@ -93,19 +95,81 @@ def get_win_percent_modifier(home_team: Team, htm: float, away_team: Team, atm: 
 
 # Based on the difference in score after goal, assist, save and shot averages are removed.
 # The leftover of the score average will be ball touches, centers, and give a rough idea of game control.
+# Point values:
+# [Goal] = 100, [Epic Save] = 75, [Assist, Save] = 50, [Hat Trick, Overtime Goal, Playmaker, Savior] = 25
+# [Aerial Goal, Backwards Goal, Bicycle Goal, Clear Ball, Extermination, High Five] = 20
+# [Long Goal, Pool Shot, Turtle Goal] = 20, [Center Ball, Shot on Goal] = 10, [Low Five] = 5
+# [Bicycle Hit, Demolition, First Touch, MVP, Win] = 0
+# (Point values grabbed from link: https://rocketleague.fandom.com/wiki/Points)
 def get_score_modifier(home_team: Team, htm: float, away_team: Team, atm: float) -> str and float:
-    return "home", 1.0
+    home_team_score_avg = home_team.score_avg * htm
+    home_team_goal_avg = home_team.goal_avg * htm
+    home_team_assist_avg = home_team.assist_avg * htm
+    home_team_save_avg = home_team.save_avg * htm
+    home_team_shot_avg = home_team.shot_avg * htm
+
+    away_team_score_avg = away_team.score_avg * htm
+    away_team_goal_avg = away_team.goal_avg * htm
+    away_team_assist_avg = away_team.assist_avg * htm
+    away_team_save_avg = away_team.save_avg * htm
+    away_team_shot_avg = away_team.shot_avg * htm
+
+    goal_points = 100
+    assist_points = 50
+    save_points = 50
+    shot_points = 10
+
+    home_team_score_adjustment = (home_team_goal_avg * goal_points) + (home_team_assist_avg * assist_points)
+    home_team_score_adjustment += (home_team_save_avg * save_points) + (home_team_shot_avg * shot_points)
+    adjusted_home_team_score_avg = home_team_score_avg - home_team_score_adjustment
+
+    away_team_score_adjustment = (away_team_goal_avg * goal_points) + (away_team_assist_avg * assist_points)
+    away_team_score_adjustment += (away_team_save_avg * save_points) + (away_team_shot_avg * shot_points)
+    adjusted_away_team_score_avg = away_team_score_avg - away_team_score_adjustment
+
+    score_avg_total = adjusted_home_team_score_avg + adjusted_away_team_score_avg
+
+    if adjusted_home_team_score_avg >= adjusted_away_team_score_avg:
+        score_avg_percent = adjusted_home_team_score_avg / score_avg_total
+        return "home", score_avg_percent
+    else:
+        score_avg_percent = adjusted_away_team_score_avg / score_avg_total
+        return "away", score_avg_percent
 
 # Based on shooting. Average shots to shot percent ratio roughly. Better accuracy and more shots than the
 # other team will both influence this modifier.
 def get_accuracy_modifier(home_team: Team, htm: float, away_team: Team, atm: float) -> str and float:
-    return "home", 1.0
+    home_team_shot_avg = home_team.shot_avg * htm
+    home_team_shot_percent_avg = home_team.shot_percent_avg * htm
+    away_team_shot_avg = away_team.shot_avg * atm
+    away_team_shot_percent_avg = away_team.shot_percent_avg * atm
+
+    home_team_shot_ratio_avg = home_team_shot_avg * home_team_shot_percent_avg
+    away_team_shot_ratio_avg = away_team_shot_avg * away_team_shot_percent_avg
+
+    shot_ratio_avg_total = home_team_shot_ratio_avg + away_team_shot_ratio_avg
+
+    if home_team_shot_ratio_avg >= away_team_shot_ratio_avg:
+        shot_ratio_avg_percent = home_team_shot_ratio_avg / shot_ratio_avg_total
+        return "home", shot_ratio_avg_percent
+    else:
+        shot_ratio_avg_percent = away_team_shot_ratio_avg / shot_ratio_avg_total
+        return "away", shot_ratio_avg_percent
 
 # Based on the average team rating. Octane.gg already does a lot of statistical analysis behind the scenes
 # to give players a semi-reliable rating. This rating is not set-in-stone, but a good estimate based on the
 # overall performance one may expect from individual players. Thus helps relate this to team level average.
 def get_rating_modifier(home_team: Team, htm: float, away_team: Team, atm: float) -> str and float:
-    return "home", 1.0
+    home_team_rating_avg = home_team.overall_rating_avg * htm
+    away_team_rating_avg = away_team.overall_rating_avg * atm
+    rating_avg_total = home_team_rating_avg + away_team_rating_avg
+
+    if home_team_rating_avg >= away_team_rating_avg:
+        rating_avg_percent = home_team_rating_avg / rating_avg_total
+        return "home", rating_avg_percent
+    else:
+        rating_avg_percent = away_team_rating_avg / rating_avg_total
+        return "away", rating_avg_percent
 
 # All regions have different difficulties, so to speak (observe liquipedia from RLCS 21-22 Fall Major)
 # Link: https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2021-22/Fall

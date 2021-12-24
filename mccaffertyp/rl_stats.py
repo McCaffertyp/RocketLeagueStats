@@ -24,9 +24,14 @@ class RLStats:
         self.teams_handler.generate_teams_stats()
         self.teams_handler.display_teams()
         print()
+        # Good test teams:
+        # "Natus Vincere" and "Nefarious"
+        # "Team BDS" and "NRG Esports"
+        # "Dignitas" and "Sandrock Gaming"
+        # "Dignitas" and "Tokyo Verdy Esports"
         stat_analysis.compare_two_teams(
-            self.teams_handler.teams_list["Natus Vincere"],
-            self.teams_handler.teams_list["Nefarious"]
+            self.teams_handler.teams_list["Dignitas"],
+            self.teams_handler.teams_list["Tokyo Verdy Esports"]
         )
 
 def write_player_list_to_csv_file(player_list: dict):
