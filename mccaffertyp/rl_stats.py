@@ -14,14 +14,16 @@ class RLStats:
     def __init__(self, refresh_rate_ms):
         self.refresh_rate_ms = refresh_rate_ms
         self.players_handler = PlayersHandler()
-        #self.players_handler.create_players()
-        #csv_file_handling.write_player_list_to_csv_file(self.players_handler.player_list)
-        self.players_handler.player_list = csv_file_handling.read_player_list_from_csv_file()
+        # self.players_handler.create_players() # Official
+        # csv_file_handling.write_player_list_to_csv_file(self.players_handler.player_list) # Official
+        self.players_handler.player_list = csv_file_handling.read_player_list_from_csv_file() # Testing
         self.teams_handler = TeamsHandler(self.players_handler.player_list)
 
     def run(self):
         self.teams_handler.create_teams()
         self.teams_handler.generate_teams_stats()
-        #csv_file_handling.write_team_list_to_csv_file(self.teams_handler.teams_list)
-        self.teams_handler.display_teams()
-        html_generator.generate_html_table(self.teams_handler.teams_list)
+        # csv_file_handling.write_team_list_to_csv_file(self.teams_handler.teams_list) # Official?
+        # self.teams_handler.display_teams() # Testing?
+
+    def get_html_webpage_as_string(self) -> str:
+        return html_generator.get_html_webpage_string(self.teams_handler.teams_list)

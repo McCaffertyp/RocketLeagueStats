@@ -1,7 +1,43 @@
 body {
-    background: #124027;
+    background: #49dbe3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0;
+    width: 88%;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+#rl_team_stats_table {
+    width: 88%;
+    overflow-x: scroll;
+    border: 3px solid black;
+}
+
+.sticky-table-data-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #49dbe3;
+}
+
+.first-col {
+    border-right: 2px solid black;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    left: -1px;
+}
+
+.basic-col {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
 }

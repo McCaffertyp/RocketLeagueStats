@@ -1,13 +1,14 @@
 from mccaffertyp.teams.team import Team
 
-def compare_two_teams(home_team: Team, away_team: Team) -> str and float and str and float:
+def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and float and str and float:
     if home_team.full_team == False or away_team.full_team == False:
-        print("Unable to accurately compare two teams that do not have full rosters (determined by 3+ players)")
-        return home_team.name, 50.0, away_team.name, 50.0
+        # print("Unable to accurately compare two teams that do not have full rosters (determined by 3+ players)")
+        return False, home_team.name, 50.0, away_team.name, 50.0
     else:
-        print("Comparing team {} and {}".format(home_team.name, away_team.name))
-        print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
-        print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
+        # print("Comparing team {} and {}".format(home_team.name, away_team.name))
+        # print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
+        # print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
+
         # Until stats are analyzed, each team has the same chance of winning.
         home_team_win_chance = 0.0
         away_team_win_chance = 0.0
@@ -73,9 +74,9 @@ def compare_two_teams(home_team: Team, away_team: Team) -> str and float and str
             home_team_win_chance += (rating_mod_percent - rating_mod_inc)
             away_team_win_chance += rating_mod_inc
 
-        output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
+        # output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
 
-        return home_team.name, home_team_win_chance, away_team.name, away_team_win_chance
+        return True, home_team.name, home_team_win_chance, away_team.name, away_team_win_chance
 
 # All regions have different difficulties, so to speak (observe liquipedia from RLCS 21-22 Fall Major)
 # Link: https://liquipedia.net/rocketleague/Rocket_League_Championship_Series/2021-22/Fall
@@ -99,7 +100,7 @@ def get_region_multipliers(home_team: Team, away_team: Team):
         elif away_region == "ASIA" or away_region == "AF":
             return 1.0, 0.7
         else:
-            print("Failed to determine away_region: {}".format(away_region))
+            # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
     elif home_region == "OCE" or home_region == "SAM":
         if away_region == "NA" or away_region == "EU":
@@ -111,7 +112,7 @@ def get_region_multipliers(home_team: Team, away_team: Team):
         elif away_region == "ASIA" or away_region == "AF":
             return 0.95, 0.7
         else:
-            print("Failed to determine away_region: {}".format(away_region))
+            # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
     elif home_region == "ME":
         if away_region == "NA" or away_region == "EU":
@@ -121,7 +122,7 @@ def get_region_multipliers(home_team: Team, away_team: Team):
         elif away_region == "ASIA" or away_region == "AF":
             return 0.85, 0.7
         else:
-            print("Failed to determine away_region: {}".format(away_region))
+            # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
     elif home_region == "ASIA" or home_region == "AF":
         if away_region == "NA" or away_region == "EU":
@@ -133,10 +134,10 @@ def get_region_multipliers(home_team: Team, away_team: Team):
         elif away_region == "ASIA" or away_region == "AF":
             return 0.7, 0.7
         else:
-            print("Failed to determine away_region: {}".format(away_region))
+            # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
     else:
-        print("Failed to determine home_region: {}".format(home_region))
+        # print("Failed to determine home_region: {}".format(home_region))
         if away_region == "NA" or away_region == "EU":
             return 1.0, 1.0
         elif away_region == "OCE" or away_region == "SAM":
@@ -146,7 +147,7 @@ def get_region_multipliers(home_team: Team, away_team: Team):
         elif away_region == "ASIA" or away_region == "AF":
             return 1.0, 0.7
         else:
-            print("Failed to determine away_region: {}".format(away_region))
+            # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
 
 def get_modifier_worths(home_team: Team, away_team: Team):
@@ -276,4 +277,4 @@ def get_rating_modifier(home_team: Team, hrm: float, away_team: Team, arm: float
         return "away", rating_avg_percent
 
 def output_statistics(htn: str, htc: float, atn: str, atc: float):
-    print("{} has a {:.2f}% chance to win. {} has {:.2f}% chance to win".format(htn, htc, atn, atc))
+    print("{} has a {:.2f}% chance to win. {} has a {:.2f}% chance to win".format(htn, htc, atn, atc))

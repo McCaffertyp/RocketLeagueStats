@@ -16,7 +16,8 @@ finally:
 from mccaffertyp.rl_stats import RLStats
 from flask import Flask, render_template
 
-RLStats(300000).run()
+rl_stats = RLStats(300000)
+rl_stats.run()
 
 app = Flask(__name__)
 
@@ -26,8 +27,12 @@ app = Flask(__name__)
 # - Apply style to a tag set with class by using a period prefix: .class-name { styling }
 
 @app.route("/")
-def rl_stats_webpage():
-    return render_template("rl_statistics.html")
+def render_rl_team_stats_webpage():
+    return rl_stats.get_html_webpage_as_string()
+
+# @app.route("/")
+# def render_webpage():
+#     return render_template("rl_statistics.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
