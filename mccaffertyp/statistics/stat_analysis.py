@@ -98,6 +98,9 @@ def get_region_multipliers(home_team: Team, away_team: Team):
             return 1.0, 0.85
         elif away_region == "ASIA" or away_region == "AF":
             return 1.0, 0.7
+        else:
+            print("Failed to determine away_region: {}".format(away_region))
+            return 1.0, 1.0
     elif home_region == "OCE" or home_region == "SAM":
         if away_region == "NA" or away_region == "EU":
             return 0.95, 1.0
@@ -107,6 +110,9 @@ def get_region_multipliers(home_team: Team, away_team: Team):
             return 0.95, 0.85
         elif away_region == "ASIA" or away_region == "AF":
             return 0.95, 0.7
+        else:
+            print("Failed to determine away_region: {}".format(away_region))
+            return 1.0, 1.0
     elif home_region == "ME":
         if away_region == "NA" or away_region == "EU":
             return 0.85, 1.0
@@ -114,6 +120,9 @@ def get_region_multipliers(home_team: Team, away_team: Team):
             return 0.85, 0.95
         elif away_region == "ASIA" or away_region == "AF":
             return 0.85, 0.7
+        else:
+            print("Failed to determine away_region: {}".format(away_region))
+            return 1.0, 1.0
     elif home_region == "ASIA" or home_region == "AF":
         if away_region == "NA" or away_region == "EU":
             return 0.7, 1.0
@@ -123,9 +132,22 @@ def get_region_multipliers(home_team: Team, away_team: Team):
             return 0.7, 0.85
         elif away_region == "ASIA" or away_region == "AF":
             return 0.7, 0.7
+        else:
+            print("Failed to determine away_region: {}".format(away_region))
+            return 1.0, 1.0
     else:
-        print("Failed to determine team regions. Default multipliers")
-        return 1.0, 1.0
+        print("Failed to determine home_region: {}".format(home_region))
+        if away_region == "NA" or away_region == "EU":
+            return 1.0, 1.0
+        elif away_region == "OCE" or away_region == "SAM":
+            return 1.0, 0.95
+        elif away_region == "ME":
+            return 1.0, 0.85
+        elif away_region == "ASIA" or away_region == "AF":
+            return 1.0, 0.7
+        else:
+            print("Failed to determine away_region: {}".format(away_region))
+            return 1.0, 1.0
 
 def get_modifier_worths(home_team: Team, away_team: Team):
     experience_mod_worth = 20.0
@@ -145,6 +167,8 @@ def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: f
     away_team_game_avg = away_team.games_avg * arm
     game_avg_total = away_team_game_avg + home_team_game_avg
 
+    if game_avg_total == 0.0:
+        return "home", 0.5
     if home_team_game_avg >= away_team_game_avg:
         game_avg_percent = home_team_game_avg / game_avg_total
         return "home", game_avg_percent
@@ -156,14 +180,16 @@ def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: f
 def get_win_percent_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:
     home_team_win_percent_avg = home_team.win_percent_avg * hrm
     away_team_win_percent_avg = away_team.win_percent_avg * arm
-    game_avg_total = away_team_win_percent_avg + home_team_win_percent_avg
+    win_percent_avg_total = away_team_win_percent_avg + home_team_win_percent_avg
 
+    if win_percent_avg_total == 0.0:
+        return "home", 0.5
     if home_team_win_percent_avg >= away_team_win_percent_avg:
-        game_avg_percent = home_team_win_percent_avg / game_avg_total
-        return "home", game_avg_percent
+        win_percent_avg_percent = home_team_win_percent_avg / win_percent_avg_total
+        return "home", win_percent_avg_percent
     else:
-        game_avg_percent = away_team_win_percent_avg / game_avg_total
-        return "away", game_avg_percent
+        win_percent_avg_percent = away_team_win_percent_avg / win_percent_avg_total
+        return "away", win_percent_avg_percent
 
 # Based on the difference in score after goal, assist, save and shot averages are removed.
 # The leftover of the score average will be ball touches, centers, and give a rough idea of game control.
@@ -201,6 +227,8 @@ def get_score_modifier(home_team: Team, hrm: float, away_team: Team, arm: float)
 
     score_avg_total = adjusted_home_team_score_avg + adjusted_away_team_score_avg
 
+    if score_avg_total == 0.0:
+        return "home", 0.5
     if adjusted_home_team_score_avg >= adjusted_away_team_score_avg:
         score_avg_percent = adjusted_home_team_score_avg / score_avg_total
         return "home", score_avg_percent
@@ -221,6 +249,8 @@ def get_accuracy_modifier(home_team: Team, hrm: float, away_team: Team, arm: flo
 
     shot_ratio_avg_total = home_team_shot_ratio_avg + away_team_shot_ratio_avg
 
+    if shot_ratio_avg_total == 0.0:
+        return "home", 0.5
     if home_team_shot_ratio_avg >= away_team_shot_ratio_avg:
         shot_ratio_avg_percent = home_team_shot_ratio_avg / shot_ratio_avg_total
         return "home", shot_ratio_avg_percent
@@ -236,6 +266,8 @@ def get_rating_modifier(home_team: Team, hrm: float, away_team: Team, arm: float
     away_team_rating_avg = away_team.overall_rating_avg * arm
     rating_avg_total = home_team_rating_avg + away_team_rating_avg
 
+    if rating_avg_total == 0.0:
+        return "home", 0.5
     if home_team_rating_avg >= away_team_rating_avg:
         rating_avg_percent = home_team_rating_avg / rating_avg_total
         return "home", rating_avg_percent

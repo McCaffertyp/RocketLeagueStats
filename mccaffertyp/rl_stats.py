@@ -24,8 +24,4 @@ class RLStats:
         self.teams_handler.generate_teams_stats()
         #csv_file_handling.write_team_list_to_csv_file(self.teams_handler.teams_list)
         self.teams_handler.display_teams()
-        #html_generator.generate_html_table(self.teams_handler.teams_list)
-        stat_analysis.compare_two_teams(
-            self.teams_handler.teams_list["00 Nation"],
-            self.teams_handler.teams_list["Midnight"]
-        )
+        html_generator.generate_html_table(self.teams_handler.teams_list)

@@ -1,4 +1,3 @@
-from mccaffertyp.teams.team import Team
 from mccaffertyp.statistics import stat_analysis
 
 def generate_html_table(teams_list: dict):
@@ -37,6 +36,9 @@ def generate_html_table(teams_list: dict):
 
     try:
         with open("team_stats_table.html", 'w') as team_stats_table_file:
+            team_stats_table_file.writelines(table)
+            team_stats_table_file.close()
+        with open("templates/team_stats_table.html", 'w') as team_stats_table_file:
             team_stats_table_file.writelines(table)
             team_stats_table_file.close()
 
