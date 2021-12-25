@@ -7,19 +7,6 @@ def get_html_webpage_string(teams_list: dict) -> str:
         finish_html_webpage()
     )
 
-def generate_html_webpage(teams_list: dict):
-    html_webpage = start_html_webpage()
-    html_webpage += generate_html_table(teams_list)
-    html_webpage += finish_html_webpage()
-
-    try:
-        with open("team_stats_table.html", 'w') as team_stats_table_file:
-            team_stats_table_file.writelines(html_webpage)
-            team_stats_table_file.close()
-
-    except IOError as e:
-        print("I/O Error: {}".format(e))
-
 def start_html_webpage() -> str:
     html_page = "<!DOCTYPE html>\n"
     html_page += "<html lang=\"en\">\n"
@@ -46,9 +33,9 @@ def generate_html_table(teams_list: dict) -> str:
     # Create headers
     table += "        <thead>\n"
     table += "          <tr>\n"
-    table += "            <th class=\"sticky-table-data-col first-col\">Team</th>\n"
+    table += "            <th class=\"sticky-table-col-row first-col first-row\">Team</th>\n"
     for team_name in teams_list:
-        table += "            <th class=\"basic-col\">{}</th>\n".format(team_name)
+        table += "            <th class=\"sticky-table-header-row basic-col first-row\">{}</th>\n".format(team_name)
     table += "          </tr>\n"
     table += "        </thead>\n"
 

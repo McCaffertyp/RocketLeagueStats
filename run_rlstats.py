@@ -15,9 +15,9 @@ app = Flask(__name__)
 def render_rl_team_stats_webpage():
     return rl_stats.get_html_webpage_as_string()
 
-# @app.route("/")
-# def render_webpage():
-#     return render_template("rl_statistics.html")
+@app.route("/queries")
+def render_webpage():
+    return render_template("rl_statistics_querying.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

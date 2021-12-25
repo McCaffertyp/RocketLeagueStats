@@ -7,9 +7,11 @@ body {
 }
 
 table {
+    width: 88%;
+    height: 80%;
+    max-height: 800px;
     border: 1px solid black;
     border-spacing: 0;
-    width: 88%;
 }
 
 th, td {
@@ -18,12 +20,33 @@ th, td {
 
 #rl_team_stats_table {
     width: 88%;
+    height: 80%;
+    max-height: 800px;
     overflow-x: scroll;
+    overflow-y: scroll;
     border: 3px solid black;
 }
 
+.sticky-table-col-row {
+    position: sticky;
+    background-color: #49dbe3;
+    z-index: 1;
+}
+
+.sticky-table-header-row {
+    position: sticky;
+    background-color: #49dbe3;
+}
+
+.first-row {
+    border-bottom: 1px solid black;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    top: -1px;
+}
+
 .sticky-table-data-col {
-    position: -webkit-sticky;
     position: sticky;
     background-color: #49dbe3;
 }
