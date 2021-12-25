@@ -1,0 +1,2817 @@
+(['G:\\Rocket League Stats\\run_rlstats.py'],
+ ['G:\\Rocket League Stats',
+  'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\Lib\\site-packages'],
+ ['codecs'],
+ [],
+ {},
+ [],
+ [],
+ False,
+ False,
+ False,
+ '3.10.0 | packaged by conda-forge | (default, Nov 10 2021, 13:20:59) [MSC '
+ 'v.1916 64 bit (AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('run_rlstats', 'G:\\Rocket League Stats\\run_rlstats.py', 'PYSOURCE')],
+ [('pkg_resources',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\__future__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._typing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\uuid.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pickle.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\doctest.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\argparse.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\gettext.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\signal.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\selectors.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\ssl.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\calendar.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\getopt.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\bisect.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\runpy.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\numbers.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\difflib.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\struct.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\statistics.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\fractions.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\socket.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\bz2.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\tty.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\cmd.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\copy.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\string.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('imp',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\imp.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._common',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\_common.py',
+   'PYMODULE'),
+  ('importlib._adapters',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\_adapters.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\ast.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\platform.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\stat.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\os.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('flask',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.scaffold',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\scaffold.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\routing.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.useragents',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\useragents.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.filesystem',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\filesystem.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.pkcs7',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs7.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.backend',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\backend.py',
+   'PYMODULE'),
+  ('cryptography.x509.base',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\base.py',
+   'PYMODULE'),
+  ('cryptography.x509.name',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\name.py',
+   'PYMODULE'),
+  ('cryptography.x509.extensions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\extensions.py',
+   'PYMODULE'),
+  ('cryptography.x509.general_name',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\general_name.py',
+   'PYMODULE'),
+  ('cryptography.x509.certificate_transparency',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\certificate_transparency.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.constant_time',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\constant_time.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.types',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\types.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x448',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x25519',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed448',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.pkcs12',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\pkcs12.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.kdf.scrypt',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\scrypt.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.kdf',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\kdf\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.modes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\modes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.base',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._cipheralgorithm',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_cipheralgorithm.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.algorithms',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\algorithms.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.padding',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\padding.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._asymmetric',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_asymmetric.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed25519',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dsa',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dh',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl.binding',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\binding.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl._conditional',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\_conditional.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x448',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x25519',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.rsa',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\rsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.poly1305',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\poly1305.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.hmac',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\hmac.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.hashes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\hashes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ed448',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ed448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ed25519',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ed25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ec',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ec.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.dsa',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\dsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.dh',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\dh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.cmac',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\cmac.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.ciphers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\ciphers.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.aead',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\aead.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.aead',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\aead.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.interfaces',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\interfaces.py',
+   'PYMODULE'),
+  ('cryptography.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\exceptions.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ec',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ec.py',
+   'PYMODULE'),
+  ('cryptography.hazmat._oid',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\_oid.py',
+   'PYMODULE'),
+  ('cryptography.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.ssh',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\ssh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.base',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._serialization',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_serialization.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.hashes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\hashes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.x509.oid',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\oid.py',
+   'PYMODULE'),
+  ('cryptography',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.__about__',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\__about__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('cryptography.x509',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\x509\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.rsa',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\rsa.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\datastructures.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('colorama',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.user_agent',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.etag',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\etag.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.common_descriptors',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\common_descriptors.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.base_response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\base_response.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.base_request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\base_request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.auth',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\auth.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.accept',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\wrappers\\accept.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('jinja2',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.jws',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\jws.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.config',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.app',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('click.testing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('click.core',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.parser',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.globals',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click._unicodefun',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\_unicodefun.py',
+   'PYMODULE'),
+  ('click.types',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click._compat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('click.termui',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('flask.json',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mccaffertyp.rl_stats',
+   'G:\\Rocket League Stats\\mccaffertyp\\rl_stats.py',
+   'PYMODULE'),
+  ('mccaffertyp',
+   'G:\\Rocket League Stats\\mccaffertyp\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.statistics.stat_analysis',
+   'G:\\Rocket League Stats\\mccaffertyp\\statistics\\stat_analysis.py',
+   'PYMODULE'),
+  ('mccaffertyp.teams.team',
+   'G:\\Rocket League Stats\\mccaffertyp\\teams\\team.py',
+   'PYMODULE'),
+  ('mccaffertyp.teams',
+   'G:\\Rocket League Stats\\mccaffertyp\\teams\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.teams.team_web_scraper',
+   'G:\\Rocket League Stats\\mccaffertyp\\teams\\team_web_scraper.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname._implementation',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\_implementation.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.queue',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\queue.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.contrib._appengine_environ',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\contrib\\_appengine_environ.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('OpenSSL.crypto',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\OpenSSL\\crypto.py',
+   'PYMODULE'),
+  ('OpenSSL',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\OpenSSL\\__init__.py',
+   'PYMODULE'),
+  ('OpenSSL.version',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\OpenSSL\\version.py',
+   'PYMODULE'),
+  ('OpenSSL._util',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\OpenSSL\\_util.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.x509',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\x509.py',
+   'PYMODULE'),
+  ('OpenSSL.SSL',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\OpenSSL\\SSL.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.assets',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\assets\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.md',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\md.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.statistics.html_generator',
+   'G:\\Rocket League Stats\\mccaffertyp\\statistics\\html_generator.py',
+   'PYMODULE'),
+  ('mccaffertyp.statistics.csv_file_handling',
+   'G:\\Rocket League Stats\\mccaffertyp\\statistics\\csv_file_handling.py',
+   'PYMODULE'),
+  ('mccaffertyp.players.player',
+   'G:\\Rocket League Stats\\mccaffertyp\\players\\player.py',
+   'PYMODULE'),
+  ('mccaffertyp.players',
+   'G:\\Rocket League Stats\\mccaffertyp\\players\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.players.player_web_scraper',
+   'G:\\Rocket League Stats\\mccaffertyp\\players\\player_web_scraper.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.desired_capabilities',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\desired_capabilities.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.keys',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py',
+   'PYMODULE'),
+  ('selenium.types',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\types.py',
+   'PYMODULE'),
+  ('selenium.common.exceptions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\common\\exceptions.py',
+   'PYMODULE'),
+  ('selenium.common',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.proxy',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\proxy.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.by',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py',
+   'PYMODULE'),
+  ('selenium.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.touch_actions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\touch_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.command',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\command.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.utils',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.action_chains',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\action_chains.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.action_builder',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\action_builder.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_input',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webelement',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.shadowroot',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\shadowroot.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.input_device',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\input_device.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_actions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.mouse_button',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\mouse_button.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_input',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_actions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.interaction',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\interaction.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.remote_connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.remote_connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\safari\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\safari\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.remote_connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chromium\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.relative_locator',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\support\\relative_locator.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5.application_cache',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\html5\\application_cache.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\html5\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.timeouts',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.print_page_options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\print_page_options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.switch_to',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.alert',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\common\\alert.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.script_key',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\script_key.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.remote_connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.mobile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\mobile.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.file_detector',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.errorhandler',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.bidi_connection',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\remote\\bidi_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\safari\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\safari\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\safari\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\opera\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\opera\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\opera\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\edge\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\edge\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\edge\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\edge\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\ie\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\ie\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\ie\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\ie\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.options',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_binary',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_binary.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_profile',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_profile.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.webdriver',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.service',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\webdriver\\firefox\\service.py',
+   'PYMODULE'),
+  ('selenium',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\selenium\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.statistics',
+   'G:\\Rocket League Stats\\mccaffertyp\\statistics\\__init__.py',
+   'PYMODULE'),
+  ('mccaffertyp.teams.teams_handler',
+   'G:\\Rocket League Stats\\mccaffertyp\\teams\\teams_handler.py',
+   'PYMODULE'),
+  ('mccaffertyp.players.players_handler',
+   'G:\\Rocket League Stats\\mccaffertyp\\players\\players_handler.py',
+   'PYMODULE')],
+ [('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('python310.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\python310.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('zlib.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\zlib.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('select',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_uuid',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('cryptography.hazmat.bindings._openssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\_openssl.pyd',
+   'EXTENSION'),
+  ('cryptography.hazmat.bindings._rust',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\_rust.pyd',
+   'EXTENSION'),
+  ('markupsafe._speedups',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Lib\\site-packages\\markupsafe\\_speedups.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1-x64.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\libcrypto-1_1-x64.dll',
+   'BINARY'),
+  ('libssl-1_1-x64.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\libssl-1_1-x64.dll',
+   'BINARY'),
+  ('ffi.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\ffi.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('liblzma.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\liblzma.dll',
+   'BINARY'),
+  ('LIBBZ2.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\LIBBZ2.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\python3.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'G:\\Rocket League Stats\\build\\run_rlstats\\base_library.zip',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\METADATA',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\PKG-INFO',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\PKG-INFO',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\entry_points.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\LICENSE',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\LICENSE',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\WHEEL',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\WHEEL',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\dependency_links.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\dependency_links.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\entry_points.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\INSTALLER',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\requires.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\requires.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\REQUESTED',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\SOURCES.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\RECORD',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\RECORD',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\requires.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\requires.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\PKG-INFO',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\PKG-INFO',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\zip-safe',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\zip-safe',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\top_level.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\WHEEL',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\WHEEL',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\RECORD',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\RECORD',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\COPYING.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\COPYING.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\INSTALLER',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\SOURCES.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\not-zip-safe',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\not-zip-safe',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\top_level.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\METADATA',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\dependency_links.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\dependency_links.txt',
+   'DATA')],
+ [])

@@ -1,0 +1,366 @@
+([('run_rlstats.exe',
+   'G:\\Rocket League Stats\\build\\run_rlstats\\run_rlstats.exe',
+   'EXECUTABLE'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('python310.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\python310.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('zlib.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\zlib.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('unicodedata',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_overlapped',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_asyncio',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_uuid',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('cryptography.hazmat.bindings._openssl',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\site-packages\\cryptography\\hazmat\\bindings\\_openssl.pyd',
+   'EXTENSION'),
+  ('cryptography.hazmat.bindings._rust',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\site-packages\\cryptography\\hazmat\\bindings\\_rust.pyd',
+   'EXTENSION'),
+  ('markupsafe._speedups',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\lib\\site-packages\\markupsafe\\_speedups.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('ffi.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\ffi.dll',
+   'BINARY'),
+  ('liblzma.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\liblzma.dll',
+   'BINARY'),
+  ('LIBBZ2.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\LIBBZ2.dll',
+   'BINARY'),
+  ('libssl-1_1-x64.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\libssl-1_1-x64.dll',
+   'BINARY'),
+  ('libcrypto-1_1-x64.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\Library\\bin\\libcrypto-1_1-x64.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League '
+   'Stats\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\fifap\\anaconda3\\envs\\Rocket League Stats\\python3.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'G:\\Rocket League Stats\\build\\run_rlstats\\base_library.zip',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\requires.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\requires.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\SOURCES.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\top_level.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\top_level.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\requires.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\requires.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\entry_points.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\COPYING.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\COPYING.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\METADATA',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\SOURCES.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\WHEEL',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\WHEEL',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\REQUESTED',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\REQUESTED',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\zip-safe',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\zip-safe',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\INSTALLER',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\METADATA',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\METADATA',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\dependency_links.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\dependency_links.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\dependency_links.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\dependency_links.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\RECORD',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\RECORD',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\WHEEL',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\WHEEL',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\RECORD',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\RECORD',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\not-zip-safe',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\not-zip-safe',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\LICENSE',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\altgraph-0.17.2.dist-info\\LICENSE',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\PKG-INFO',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\PKG-INFO',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\entry_points.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\entry_points.txt',
+   'DATA'),
+  ('wheel-0.37.0-py3.9.egg-info\\top_level.txt',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\wheel-0.37.0-py3.9.egg-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-58.0.4-py3.10.egg-info\\PKG-INFO',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\setuptools-58.0.4-py3.10.egg-info\\PKG-INFO',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\INSTALLER',
+   'c:\\users\\fifap\\anaconda3\\envs\\rocket league '
+   'stats\\lib\\site-packages\\pyinstaller-4.7.dist-info\\INSTALLER',
+   'DATA')],)
