@@ -1,5 +1,5 @@
 body {
-    background: #49dbe3;
+    background: #007bcf;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,13 +29,13 @@ th, td {
 
 .sticky-table-col-row {
     position: sticky;
-    background-color: #49dbe3;
+    background-color: #007bcf;
     z-index: 1;
 }
 
 .sticky-table-header-row {
     position: sticky;
-    background-color: #49dbe3;
+    background-color: #007bcf;
 }
 
 .first-row {
@@ -48,7 +48,7 @@ th, td {
 
 .sticky-table-data-col {
     position: sticky;
-    background-color: #49dbe3;
+    background-color: #007bcf;
 }
 
 .first-col {

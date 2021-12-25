@@ -5,23 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Rocket League Stats Predictor</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='rl_statistics_querying.css') }}" />
-<!--        <link rel="import" href="{{ url_for('static', filename='team_stats_table.html') }}" />-->
-<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-<!--        <script>-->
-<!--            $(document).ready(function() {-->
-<!--                $('#rl_stats_table').load("team_stats_table.html", function(response, status, xhr) {-->
-<!--                    if (status == "error") {-->
-<!--                        $("#error").html(xhr.status + " ERROR: Page Not Found");-->
-<!--                    }-->
-<!--                });-->
-<!--            });-->
-<!--        </script>-->
+        <script>
+            var button = document.getElementById('go_to_table_btn');
+            button.onclick = function() {
+                location.assign(`${document.URL}/queries`)
+            }
+        </script>
     </head>
     <body>
         <h1>Rocket League Statistics</h1>
-        <p>Statistics</p>
-        <object data="team_stats_table.html"></object>
-<!--        <div id="rl_stats_table">Table</div>-->
-<!--        <div id="error"></div>-->
+        <button id="go_to_table_btn">Go to Table Overview</button>
     </body>
 </html>
