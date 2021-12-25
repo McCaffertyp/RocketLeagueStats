@@ -75,6 +75,6 @@ def generate_html_table(teams_list: dict) -> str:
         table += "          </tr>\n"
 
     table += "        </tbody>\n"
-    table += "      </table>"
+    table += "      </table>\n"
 
     return table
