@@ -74,7 +74,7 @@ def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and floa
             home_team_win_chance += (rating_mod_percent - rating_mod_inc)
             away_team_win_chance += rating_mod_inc
 
-        # output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
+        output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
 
         return True, home_team.name, home_team_win_chance, away_team.name, away_team_win_chance
 
@@ -166,34 +166,61 @@ def get_modifier_worths_percentaged(home_team: Team, away_team: Team):
 def get_modifier_worths_waterfall(home_team: Team, away_team: Team):
     current_mod_value = 20.0
     # experience_mod_worth = 20.0 # 50% 10.0 with extra 10.0
-    win_percent_mod_worth = 20.0 # 80% 22.5 -> 16.9 with extra 5.65
-    score_mod_worth = 20.0 # 100% 22.5 -> 24.38 with extra 0.0
-    accuracy_mod_worth = 20.0 # 22.5 -> 24.38
-    rating_mod_worth = 20.0 # 22.5 -> 24.38
+    # win_percent_mod_worth = 20.0 # 80% 22.5 -> 16.9 with extra 5.65
+    # score_mod_worth = 20.0 # 100% 22.5 -> 24.38 with extra 0.0
+    # accuracy_mod_worth = 20.0 # 22.5 -> 24.38
+    # rating_mod_worth = 20.0 # 22.5 -> 24.38
 
     # Calculations
-    # No idea what to do for this right now.
-    significant_exp_percent = get_significant_exp_percent(home_team, away_team)
+    significant_exp_percent = get_significant_exp_avg_percent(home_team, away_team)
     experience_mod_worth = current_mod_value * significant_exp_percent
     extra_percentage = current_mod_value - experience_mod_worth
     add_per = extra_percentage / 4.0
-    win_percent_mod_worth += add_per
-    score_mod_worth += add_per
-    accuracy_mod_worth += add_per
-    rating_mod_worth += add_per
-    current_mod_value = win_percent_mod_worth
-
+    current_mod_value += add_per
+    significant_win_percent_percent = get_significant_win_percent_avg_percent(home_team, away_team)
+    win_percent_mod_worth = current_mod_value * significant_win_percent_percent
+    extra_percentage = current_mod_value - win_percent_mod_worth
+    add_per = extra_percentage / 3.0
+    current_mod_value += add_per
+    significant_score_percent = get_significant_score_avg_percent(home_team, away_team)
+    score_mod_worth = current_mod_value * significant_score_percent
+    extra_percentage = current_mod_value - score_mod_worth
+    add_per = extra_percentage / 2.0
+    current_mod_value += add_per
+    significant_accuracy_percent = get_significant_accuracy_avg_percent(home_team, away_team)
+    accuracy_mod_worth = current_mod_value * significant_accuracy_percent
+    extra_percentage = current_mod_value - accuracy_mod_worth
+    rating_mod_worth = extra_percentage + current_mod_value
 
     return experience_mod_worth, win_percent_mod_worth, score_mod_worth, accuracy_mod_worth, rating_mod_worth
 
-def get_significant_exp_percent(home_team: Team, away_team: Team) -> str and float:
-    # Game averages: 0-150, 151-300, 301-400, 401-600, 601+
-    # Highest possible average = ~902.66
-    teams_game_avg = (home_team.games_avg + away_team.games_avg) / 2.0
+def get_significant_exp_avg_percent(home_team: Team, away_team: Team) -> float:
+    # Game average ranges: 0-150, 151-300, 301-400, 401-600, 601+
+    # Using above ranges as determiners for exp_percent
+    home_games_avg = home_team.games_avg
+    away_games_avg = away_team.games_avg
+    games_avg_diff = abs(home_games_avg - away_games_avg)
+
+    if games_avg_diff <= 150:
+        teams_games_avg = (home_games_avg + away_games_avg) / 2.0
+        return calculate_exp_avg_percent(teams_games_avg)
+    elif games_avg_diff <= 300:
+        return 0.25
+    elif games_avg_diff <= 400:
+        return 0.5
+    elif games_avg_diff <= 600:
+        return 0.75
+    else:
+        return 1.0
+
+def calculate_exp_avg_percent(teams_game_avg: float) -> float:
     if teams_game_avg == 0:
         return 1.0
 
-    percent_game_avg = 25 / teams_game_avg
+    # NRG - games_avg = 961.33, high percentage of teams - games_avg = 0.00
+    # ANKAA - games_avg = 17.00 (looks like the lowest, although the lowest avg possible for a team should be 16.66)
+    # Highest possible average = ~902.66, lowest possible average = ~8.33
+    percent_game_avg = 8.33 / teams_game_avg
 
     if percent_game_avg < 0.25:
         return 0.25
@@ -202,9 +229,43 @@ def get_significant_exp_percent(home_team: Team, away_team: Team) -> str and flo
     else:
         return percent_game_avg
 
-def get_significant_win_percent_percent(home_team: Team, away_team: Team) -> float:
-
+# Win percent is pretty significant in and of itself. Leaving at full percent for now.
+def get_significant_win_percent_avg_percent(home_team: Team, away_team: Team) -> float:
     return 1.0
+
+# Score average is pretty significant in and of itself. Leaving at full percent for now.
+def get_significant_score_avg_percent(home_team: Team, away_team: Team) -> float:
+    return 1.0
+
+# Accuracy significance will be dictated by the percentage of how likely each team would score on each other.
+# This could be calculated taking team1 shot avg, subtracting team2 save avg, then multiply by the goal avg.
+def get_significant_accuracy_avg_percent(home_team: Team, away_team: Team) -> float:
+    home_true_goal_avg = home_team.shot_avg * home_team.shot_percent_avg
+    home_shot_avg = home_team.shot_avg
+    home_save_avg = home_team.save_avg
+    away_true_goal_avg = away_team.shot_avg * away_team.shot_percent_avg
+    away_shot_avg = away_team.shot_avg
+    away_save_avg = away_team.save_avg
+
+    home_scores_goal_chance = home_shot_avg - away_save_avg
+    away_scores_goal_chance = away_shot_avg - home_save_avg
+
+    home_winning_goal_chance = home_true_goal_avg * home_scores_goal_chance
+    away_winning_goal_chance = away_true_goal_avg * away_scores_goal_chance
+
+    # Chance eUnited scores game winning goal against Tokyo Verdy Esports:
+    # htga = 0.638, hsha = 2.90, asaa = 1.12, hsgc = 1.78, hwgc = 1.13
+    # Chance Tokyo Verdy Esports scores game winning goal against eUnited:
+    # atga = 0.9376, asha = 2.93, hsaa = 1.51, asgc = 1.42, awgc = 1.33
+
+    winning_goal_chance_avg = (home_winning_goal_chance + away_winning_goal_chance) / 2.0
+
+    if winning_goal_chance_avg > 1.0:
+        return 1.0
+    elif winning_goal_chance_avg < 0.0:
+        return 0.0
+    else:
+        return winning_goal_chance_avg
 
 # Based on the pure games played average
 def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:
@@ -223,18 +284,25 @@ def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: f
 
 # Based on pure win percent averages between the two teams
 def get_win_percent_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:
+    home_team_game_avg = home_team.games_avg * hrm
     home_team_win_percent_avg = home_team.win_percent_avg * hrm
+    home_team_game_win_avg = home_team_game_avg * home_team_win_percent_avg
+    away_team_game_avg = away_team.games_avg * arm
     away_team_win_percent_avg = away_team.win_percent_avg * arm
-    win_percent_avg_total = away_team_win_percent_avg + home_team_win_percent_avg
+    away_team_game_win_avg = away_team_game_avg * away_team_win_percent_avg
+    game_win_percent_avg_total = home_team_game_win_avg + away_team_game_win_avg
 
-    if win_percent_avg_total == 0.0:
+    # Old way = ~58%
+    # 112.24 + 615.2512 = 727.4912 :: 615.2512 / 727.4912 = ~85%
+
+    if game_win_percent_avg_total == 0.0:
         return "home", 0.5
-    if home_team_win_percent_avg >= away_team_win_percent_avg:
-        win_percent_avg_percent = home_team_win_percent_avg / win_percent_avg_total
-        return "home", win_percent_avg_percent
+    if home_team_game_win_avg >= away_team_game_win_avg:
+        game_win_percent_avg_percent = home_team_game_win_avg / game_win_percent_avg_total
+        return "home", game_win_percent_avg_percent
     else:
-        win_percent_avg_percent = away_team_win_percent_avg / win_percent_avg_total
-        return "away", win_percent_avg_percent
+        game_win_percent_avg_percent = away_team_game_win_avg / game_win_percent_avg_total
+        return "away", game_win_percent_avg_percent
 
 # Based on the difference in score after goal, assist, save and shot averages are removed.
 # The leftover of the score average will be ball touches, centers, and give a rough idea of game control.

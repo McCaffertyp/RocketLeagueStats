@@ -22,6 +22,10 @@ class RLStats:
     def run(self):
         self.teams_handler.create_teams()
         self.teams_handler.generate_teams_stats()
+        stat_analysis.compare_two_teams(
+            self.teams_handler.teams_list["NRG Esports"],
+            self.teams_handler.teams_list["Sandrock Gaming"]
+        )
         # csv_file_handling.write_team_list_to_csv_file(self.teams_handler.teams_list) # Official?
         # self.teams_handler.display_teams() # Testing?
 
