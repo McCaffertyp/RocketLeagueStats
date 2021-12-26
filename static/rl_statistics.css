@@ -21,7 +21,7 @@ th, td {
 #rl_team_stats_table {
     width: 88%;
     height: 80%;
-    max-height: 800px;
+    max-height: 600px;
     overflow-x: scroll;
     overflow-y: scroll;
     border: 3px solid black;
@@ -63,4 +63,8 @@ th, td {
     width: 150px;
     min-width: 150px;
     max-width: 150px;
+}
+
+.percentage-data {
+    background-color: #008ef0;
 }

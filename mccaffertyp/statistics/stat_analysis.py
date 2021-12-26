@@ -1,13 +1,13 @@
 from mccaffertyp.teams.team import Team
 
 def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and float and str and float:
-    if home_team.full_team == False or away_team.full_team == False:
+    if not home_team.full_team or not away_team.full_team:
         # print("Unable to accurately compare two teams that do not have full rosters (determined by 3+ players)")
         return False, home_team.name, 50.0, away_team.name, 50.0
     else:
-        # print("Comparing team {} and {}".format(home_team.name, away_team.name))
-        # print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
-        # print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
+        print("Comparing team {} and {}".format(home_team.name, away_team.name))
+        print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
+        print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
 
         # Until stats are analyzed, each team has the same chance of winning.
         home_team_win_chance = 0.0
@@ -25,7 +25,7 @@ def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and floa
         # the experience matters. Two teams who've played an avg of 500+ games each in RLCS experience means they
         # should theoretically be equal on that front, thus meaning experience would be closer to a 1/20 of
         # the win predictions and not 1/5.
-        empw, wpmpw, smpw, ampw, rmpw = get_modifier_worths(home_team, away_team)
+        empw, wpmpw, smpw, ampw, rmpw = get_modifier_worths_waterfall(home_team, away_team)
 
         experience_mod_percent = empw
         win_percent_mod_percent = wpmpw
@@ -150,17 +150,61 @@ def get_region_multipliers(home_team: Team, away_team: Team):
             # print("Failed to determine away_region: {}".format(away_region))
             return 1.0, 1.0
 
-def get_modifier_worths(home_team: Team, away_team: Team):
-    experience_mod_worth = 20.0
-    win_percent_mod_worth = 20.0
-    score_mod_worth = 20.0
-    accuracy_mod_worth = 20.0
-    rating_mod_worth = 20.0
+def get_modifier_worths_percentaged(home_team: Team, away_team: Team):
+    total_percentage = 100.0
+    experience_mod_worth = 0.2
+    win_percent_mod_worth = 0.2
+    score_mod_worth = 0.2
+    accuracy_mod_worth = 0.2
+    rating_mod_worth = 0.2
 
     # Calculations
     # No idea what to do for this right now.
 
     return experience_mod_worth, win_percent_mod_worth, score_mod_worth, accuracy_mod_worth, rating_mod_worth
+
+def get_modifier_worths_waterfall(home_team: Team, away_team: Team):
+    current_mod_value = 20.0
+    # experience_mod_worth = 20.0 # 50% 10.0 with extra 10.0
+    win_percent_mod_worth = 20.0 # 80% 22.5 -> 16.9 with extra 5.65
+    score_mod_worth = 20.0 # 100% 22.5 -> 24.38 with extra 0.0
+    accuracy_mod_worth = 20.0 # 22.5 -> 24.38
+    rating_mod_worth = 20.0 # 22.5 -> 24.38
+
+    # Calculations
+    # No idea what to do for this right now.
+    significant_exp_percent = get_significant_exp_percent(home_team, away_team)
+    experience_mod_worth = current_mod_value * significant_exp_percent
+    extra_percentage = current_mod_value - experience_mod_worth
+    add_per = extra_percentage / 4.0
+    win_percent_mod_worth += add_per
+    score_mod_worth += add_per
+    accuracy_mod_worth += add_per
+    rating_mod_worth += add_per
+    current_mod_value = win_percent_mod_worth
+
+
+    return experience_mod_worth, win_percent_mod_worth, score_mod_worth, accuracy_mod_worth, rating_mod_worth
+
+def get_significant_exp_percent(home_team: Team, away_team: Team) -> str and float:
+    # Game averages: 0-150, 151-300, 301-400, 401-600, 601+
+    # Highest possible average = ~902.66
+    teams_game_avg = (home_team.games_avg + away_team.games_avg) / 2.0
+    if teams_game_avg == 0:
+        return 1.0
+
+    percent_game_avg = 25 / teams_game_avg
+
+    if percent_game_avg < 0.25:
+        return 0.25
+    elif percent_game_avg > 1.0:
+        return 1.0
+    else:
+        return percent_game_avg
+
+def get_significant_win_percent_percent(home_team: Team, away_team: Team) -> float:
+
+    return 1.0
 
 # Based on the pure games played average
 def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:

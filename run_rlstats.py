@@ -3,15 +3,21 @@ import subprocess
 
 try:
     from selenium import webdriver
+    from flask import Flask, render_template
+    import requests
 except ImportError:
-    print("Failed to import webdriver from selenium")
+    print("Failed to import something")
     print("Attempting manual install")
     try:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'selenium'])
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'Flask'])
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'requests'])
     except subprocess.CalledProcessError:
-        print("Error running install command 'pip install selenium'")
+        print("Error running install command 'pip install <program>'")
 finally:
     from selenium import webdriver
+    from flask import Flask, render_template
+    import requests
 
 from mccaffertyp.rl_stats import RLStats
 from flask import Flask, render_template

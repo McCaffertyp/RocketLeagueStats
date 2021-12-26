@@ -9,24 +9,31 @@ base_player_url = "https://zsr.octane.gg/players"
 def scrape_active_teams() -> dict:
     team_list = {}
     print("Creating active teams list page")
-    team_list_page = requests.get(base_active_teams_url).content
-    print("Generating json file of page data")
-    team_page_data = json.loads(team_list_page)
-    for team_obj in team_page_data["teams"]:
-        team = team_obj["team"]
-        players = team_obj["players"]
-        print("\nCreating data for team \"{}\"".format(team["name"]))
-        team_id = team["_id"]
-        team_name = team["name"]
-        team_region = None
-        if "region" in team:
-            team_region = team["region"]
-        print("Adding player tags to teams")
-        player_tags = []
-        for player in players:
-            player_tags.append(player["tag"])
-        print("Adding Team object to team list")
-        team_list[team_name] = (Team(team_id, team_name, team_region, player_tags))
+    failed = True
+    while failed:
+        try:
+            team_list_page = requests.get(base_active_teams_url).content
+            failed = False
+            print("Generating json file of page data")
+            team_page_data = json.loads(team_list_page)
+            for team_obj in team_page_data["teams"]:
+                team = team_obj["team"]
+                players = team_obj["players"]
+                print("\nCreating data for team \"{}\"".format(team["name"]))
+                team_id = team["_id"]
+                team_name = team["name"]
+                team_region = None
+                if "region" in team:
+                    team_region = team["region"]
+                print("Adding player tags to teams")
+                player_tags = []
+                for player in players:
+                    player_tags.append(player["tag"])
+                print("Adding Team object to team list")
+                team_list[team_name] = (Team(team_id, team_name, team_region, player_tags))
+        except Exception as error:
+            failed = True
+            print("Error: {}".format(error))
 
     return team_list
 

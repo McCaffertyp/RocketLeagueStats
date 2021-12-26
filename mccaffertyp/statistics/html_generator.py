@@ -52,12 +52,13 @@ def generate_html_table(teams_list: dict) -> str:
 
             # Actual table data addition
             if home_team_name == away_team_name:
-                table += "            <td class=\"basic-col\">{}</td>\n".format("N/A")
-            elif not did_compare: # E600 just means lack of team data to calculate. Alt: Lack of Team Data (LoTD)
+                table += "            <td class=\"basic-col same-team-data\">{}</td>\n".format("N/A")
+            elif not did_compare:
+                # E600 just means lack of team data to calculate. Alt: Lack of Team Data (LoTD)
                 # Other options: https://www.powerthesaurus.org/not_enough_data/synonyms
-                table += "            <td class=\"basic-col\">{}</td>\n".format("E600")
+                table += "            <td class=\"basic-col error-data\">{}</td>\n".format("E600")
             else:
-                table += "            <td class=\"basic-col\">{:.2f}%</td>\n".format(atwc)
+                table += "            <td class=\"basic-col percentage-data\">{:.2f}%</td>\n".format(atwc)
 
         table += "          </tr>\n"
 
