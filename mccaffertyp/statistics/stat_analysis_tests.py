@@ -14,6 +14,11 @@ def stat_analysis_tests(teams_handler: TeamsHandler):
     )
     print()
     stat_analysis.compare_two_teams(
+        teams_handler.teams_list["Sandrock Gaming"],
+        teams_handler.teams_list["NRG Esports"]
+    )
+    print()
+    stat_analysis.compare_two_teams(
         teams_handler.teams_list["Dignitas"],
         teams_handler.teams_list["Sandrock Gaming"]
     )

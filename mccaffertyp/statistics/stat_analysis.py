@@ -5,9 +5,9 @@ def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and floa
         # print("Unable to accurately compare two teams that do not have full rosters (determined by 3+ players)")
         return False, home_team.name, 50.0, away_team.name, 50.0
     else:
-        print("Comparing team {} and {}".format(home_team.name, away_team.name))
-        print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
-        print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
+        # print("Comparing team {} and {}".format(home_team.name, away_team.name))
+        # print("Base stats for \"{}\": {}".format(home_team.name, home_team.stats_to_string()))
+        # print("Base stats for \"{}\": {}".format(away_team.name, away_team.stats_to_string()))
 
         # Until stats are analyzed, each team has the same chance of winning.
         home_team_win_chance = 0.0
@@ -74,7 +74,7 @@ def compare_two_teams(home_team: Team, away_team: Team) -> bool and str and floa
             home_team_win_chance += (rating_mod_percent - rating_mod_inc)
             away_team_win_chance += rating_mod_inc
 
-        output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
+        # output_statistics(home_team.name, home_team_win_chance, away_team.name, away_team_win_chance)
 
         return True, home_team.name, home_team_win_chance, away_team.name, away_team_win_chance
 
@@ -284,6 +284,21 @@ def get_experience_modifier(home_team: Team, hrm: float, away_team: Team, arm: f
 
 # Based on pure win percent averages between the two teams
 def get_win_percent_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:
+    home_team_win_percent_avg = home_team.win_percent_avg * hrm
+    away_team_win_percent_avg = away_team.win_percent_avg * arm
+    win_percent_avg_total = home_team_win_percent_avg + away_team_win_percent_avg
+
+    if win_percent_avg_total == 0.0:
+        return "home", 0.5
+    if home_team_win_percent_avg >= away_team_win_percent_avg:
+        game_win_percent_avg_percent = home_team_win_percent_avg / win_percent_avg_total
+        return "home", game_win_percent_avg_percent
+    else:
+        game_win_percent_avg_percent = away_team_win_percent_avg / win_percent_avg_total
+        return "away", game_win_percent_avg_percent
+
+# Based on games average multiplied by the win % avg. Result is compared between the two teams
+def get_games_won_modifier(home_team: Team, hrm: float, away_team: Team, arm: float) -> str and float:
     home_team_game_avg = home_team.games_avg * hrm
     home_team_win_percent_avg = home_team.win_percent_avg * hrm
     home_team_game_win_avg = home_team_game_avg * home_team_win_percent_avg
@@ -292,8 +307,9 @@ def get_win_percent_modifier(home_team: Team, hrm: float, away_team: Team, arm: 
     away_team_game_win_avg = away_team_game_avg * away_team_win_percent_avg
     game_win_percent_avg_total = home_team_game_win_avg + away_team_game_win_avg
 
-    # Old way = ~58%
-    # 112.24 + 615.2512 = 727.4912 :: 615.2512 / 727.4912 = ~85%
+    # Example used with "eUnited" and "NRG Esports"
+    # get_win_percent_modifier would return ~58%
+    # this method would do the following: 112.24 + 615.2512 = 727.4912 -> 615.2512 / 727.4912 and return ~85%
 
     if game_win_percent_avg_total == 0.0:
         return "home", 0.5

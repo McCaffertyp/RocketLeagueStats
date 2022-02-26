@@ -32,13 +32,13 @@ app = Flask(__name__)
 # - Apply style to a specific tag with an id with a hashtag: #id-name { styling }
 # - Apply style to a tag set with class by using a period prefix: .class-name { styling }
 
-# @app.route("/")
-# def render_rl_team_stats_webpage():
-#     return rl_stats.get_html_webpage_as_string()
-#
-# @app.route("/queries")
-# def render_webpage():
-#     return render_template("rl_statistics_querying.html")
-#
-# if __name__ == "__main__":
-#     app.run(debug=True)
+@app.route("/")
+def render_rl_team_stats_webpage():
+    return rl_stats.get_html_webpage_as_string()
+
+@app.route("/queries")
+def render_webpage():
+    return render_template("rl_statistics_querying.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)
