@@ -48,17 +48,21 @@ def generate_html_table(teams_list: dict) -> str:
             home_team = teams_list[home_team_name]
             away_team = teams_list[away_team_name]
 
-            did_compare, htn, htwc, atn, atwc = stat_analysis.compare_two_teams(home_team, away_team)
-
-            # Actual table data addition
             if home_team_name == away_team_name:
+                # Table data addition for when a team "plays" itself (not possible)
                 table += "            <td class=\"basic-col same-team-data\">{}</td>\n".format("N/A")
-            elif not did_compare:
-                # E600 just means lack of team data to calculate. Alt: Lack of Team Data (LoTD)
-                # Other options: https://www.powerthesaurus.org/not_enough_data/synonyms
-                table += "            <td class=\"basic-col error-data\">{}</td>\n".format("E600")
             else:
-                table += "            <td class=\"basic-col percentage-data\">{:.2f}%</td>\n".format(atwc)
+                did_compare, htn, htwc, atn, atwc = stat_analysis.compare_two_teams(home_team, away_team)
+
+                # Table data addition
+                if not did_compare:
+                    # E600 just means lack of team data to calculate. Alt: Lack of Team Data (LoTD)
+                    # Other options: https://www.powerthesaurus.org/not_enough_data/synonyms
+                    table += "            <td class=\"basic-col error-data\">{}</td>\n".format("E600")
+                else:
+                    # The atwc (away_team_win_chance) on the webpage is the chance of the team on the left beating
+                    # the team on the top
+                    table += "            <td class=\"basic-col percentage-data\">{:.2f}%</td>\n".format(atwc)
 
         table += "          </tr>\n"
 
